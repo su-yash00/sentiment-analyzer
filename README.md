@@ -46,7 +46,9 @@ sentiment-analyser/
 
 ## Run Tests
 
+```bash
 PYTHONPATH=$(pwd) pytest
+```
 
 ## Example
 
@@ -59,7 +61,3 @@ Output:
 {
 "sentiment": "positive"
 }
-
-```bash
-PYTHONPATH=$(pwd) pytest
-```
